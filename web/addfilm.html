@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-type" content="text/html; charset=UTF-8">
+    <title>Добавление фильма</title>
+</head>
+<body>
+    <center>
+        <form method="post" action="addfilm" accept-charset="UTF-8">
+            <label>Название фильма:
+                <input type="text" name="filmname" required><br />
+            </label>
+            <br />
+            <label>Год выпуска:
+                <input type="text" name="released" required><br />
+            </label>
+            <br />
+            <label>Описание фильма:
+                <textarea rows="10" cols="40" name="filmdescription" required></textarea><br />
+            </label>
+            <br/>
+            <input type="submit" value="Добавить">
+        </form>
+    </center>
+</body>
+</html>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
+         version="4.0">
+
+    <servlet>
+        <servlet-name>MainServlet</servlet-name>
+        <servlet-class>ru.cinema.web.servlets.MainCinemaServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>MainServlet</servlet-name>
+        <url-pattern>/maincinema</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>AdminPage</servlet-name>
+        <servlet-class>ru.cinema.web.servlets.AdminPageServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AdminPage</servlet-name>
+        <url-pattern>/adminpage</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>AddFilm</servlet-name>
+        <servlet-class>ru.cinema.web.servlets.AddFilmServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AddFilm</servlet-name>
+        <url-pattern>/addfilm</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>RemoveFilm</servlet-name>
+        <servlet-class>ru.cinema.web.servlets.RemoveFilmServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>RemoveFilm</servlet-name>
+        <url-pattern>/removefilm</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>AddCinema</servlet-name>
+        <servlet-class>ru.cinema.web.servlets.AddCinemaServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AddCinema</servlet-name>
+        <url-pattern>/addcinema</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>RemoveCinema</servlet-name>
+        <servlet-class>ru.cinema.web.servlets.RemoveCinemaServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>RemoveCinema</servlet-name>
+        <url-pattern>/removecinema</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>AddNews</servlet-name>
+        <servlet-class>ru.cinema.web.servlets.AddNewsServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AddNews</servlet-name>
+        <url-pattern>/addnews</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>RemoveNews</servlet-name>
+        <servlet-class>ru.cinema.web.servlets.RemoveNewsServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>RemoveNews</servlet-name>
+        <url-pattern>/removenews</url-pattern>
+    </servlet-mapping>
+</web-app>

@@ -1,0 +1,274 @@
+*{
+    background: #333333;
+}
+
+.header{
+    background: #333333;
+    border-left: 220px solid #c2ff49;
+    padding: 10px;
+    color: #fff;
+    font: bold italic 50px "Times New Roman";
+    position:relative;
+}
+
+.mainframe{
+    background: #333333;
+    text-decoration: none;
+    color: white;
+}
+
+.header_separator{
+    background: #c2ff49;
+    padding: 2px;
+}
+
+.login_link{
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 200px;
+    height: 78px;
+}
+
+.login_link a{
+    display: block;
+    text-align: center;
+    line-height: 78px;
+    font-size: 50px;
+    margin: 0;
+    height: 100%;
+    text-decoration: none;
+    color: white;
+    background: #333333;
+}
+
+.login_link:hover a{
+    background: red;
+    color: blueviolet;
+}
+
+.left_link{
+    width: 220px;
+    height: 50px;
+}
+
+.left_link a{
+    display: block;
+    text-align: center;
+    line-height: 1.7em;
+    font-size: 1.9em;
+    margin: 0;
+    height: 100%;
+    text-decoration: none;
+    color: white;
+    background: #333333;
+}
+
+.left_link:hover a{
+    background: red;
+    color: blueviolet;
+}
+
+.left_link_continue {
+    width: 220px;
+    height: 958px;
+    background: #333333;
+}
+
+.first_film_img{
+    position: absolute;
+    left: 228px;
+    top: 90px;
+}
+
+.second_film_img{
+    position: absolute;
+    left: 570.5px;
+    top: 90px;
+}
+
+.third_film_img{
+    position: absolute;
+    left: 913px;
+    top: 90px;
+}
+
+img.size_film_img{
+    height: 500px;
+    width: 342.5px;
+}
+
+.promo{
+    background: #333333;
+    border: 3px solid #c2ff49;
+    font: bold italic 45px "Times New Roman";
+    color: white;
+    padding-left: 50px;
+    position: absolute;
+    left: 228px;
+    top: 590px;
+    width: 972px;
+}
+
+.first_promo{
+    position: absolute;
+    left: 228px;
+    top: 648px;
+}
+
+.second_promo{
+    position: absolute;
+    left: 228px;
+    top: 848px;
+}
+
+.third_promo{
+    position: absolute;
+    left: 228px;
+    top: 1048px;
+}
+
+img.size_promo_img{
+    height: 200px;
+    width: 1028px;
+}
+
+div.first_cinema {
+    width: 700px;
+    background: cyan;
+    text-align: center;
+    padding: 10px;
+    font: bold italic 40px "Times New Roman";
+    color: brown;
+    border-radius: 5px;
+    position: absolute;
+    left: 400px;
+    top: 150px;
+}
+
+div.second_cinema{
+    width: 700px;
+    background: cyan;
+    text-align: center;
+    padding: 10px;
+    font: bold italic 40px "Times New Roman";
+    color: brown;
+    border-radius: 5px;
+    position: absolute;
+    left: 400px;
+    top: 370px;
+}
+
+div.third_cinema{
+    width: 700px;
+    background: cyan;
+    text-align: center;
+    padding: 10px;
+    font: bold italic 40px "Times New Roman";
+    color: brown;
+    border-radius: 5px;
+    position: absolute;
+    left: 400px;
+    top: 600px;
+}
+
+div.arg_cinema_color{
+    padding: 5px;
+    background: yellow;
+}
+
+div.common_number{
+    width: 800px;
+    background: gold;
+    text-align: center;
+    padding: 10px;
+    font: bold italic 40px "Times New Roman";
+    color: orangered;
+    border-radius: 5px;
+    position: absolute;
+    left: 350px;
+    top: 150px;
+}
+
+div.all_cinema_numbers{
+    width: 800px;
+    background: gold;
+    text-align: center;
+    padding: 10px;
+    font: bold italic 40px "Times New Roman";
+    color: orangered;
+    border-radius: 5px;
+    position: absolute;
+    left: 350px;
+    top: 250px;
+}
+
+div.arg_contacts_color{
+    background: limegreen;
+    padding: 5px;
+}
+
+.table_affiche{
+    background: gold;
+    text-align: center;
+    font: bold italic 30px "Times New Roman";
+    color: orangered;
+    padding: 5px;
+    position: absolute;
+    left: 228px;
+    top: 90px;
+    width: 1028px;
+}
+
+div.first_news{
+    position: absolute;
+    left: 420px;
+    top: 130px;
+    text-align: center;
+}
+
+div.second_news{
+    position: absolute;
+    left: 420px;
+    top: 550px;
+    text-align: center;
+}
+
+div.news_name{
+    font: bold italic 30px "Times New Roman";
+    color: brown;
+}
+
+div.news_description{
+    font: bold italic 15px "Arial";
+    color: brown;
+}
+
+img.size_news_img{
+    height: 250px;
+    width: 600px;
+}
+
+div.filmpage_imgdiv{
+    position: absolute;
+    left: 850px;
+    top: 130px;
+}
+div.filmpage_name{
+    width: 400px;
+    position: absolute;
+    left: 300px;
+    top: 130px;
+    font: bold 35px "ItalicT";
+    text-align: center;
+    color: linen;
+}
+
+div.filmpage_description{
+    width: 550px;
+    position: absolute;
+    left: 260px;
+    top: 250px;
+    font: bold 20px "ItalicT";
+    color: linen;
+}
